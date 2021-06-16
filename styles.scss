@@ -1,0 +1,80 @@
+.wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  height: 80vh;
+  border: 2px solid black;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  
+  h2 {
+    border: 2px solid green;
+    padding: 2vh;
+  }
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  width: 80vh;
+  flex-direction: row;
+}
+
+  .column-box {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 20vh;
+    height: 60vh;
+    flex-direction: column;
+    align-content: center;
+  } 
+
+  .mini-box {
+    border: 2px solid black;
+    width: 10vh;
+    height: 10vh;
+  }
+
+  .one {
+    justify-content: space-around;
+  }
+
+  .two {
+    justify-content: space-between;
+  }
+
+  .three {
+    justify-content: space-evenly;
+  }
+
+  .four {
+    justify-content: space-evenly;
+  }
+
+  .red {
+    background-color: red;
+  }
+
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+   
+  .green {
+    background-color: green;
+  }
+
