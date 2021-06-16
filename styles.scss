@@ -1,80 +1,116 @@
-.wrapper {
-  justify-content: center;
-  display: flex;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  width: 90vw;
-  height: 80vh;
-  border: 2px solid black;
-  flex-direction: column;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 nav {
   display: flex;
-  justify-content: center;
-  
-  h2 {
-    border: 2px solid green;
-    padding: 2vh;
+  justify-content: space-between;
+  border: 2px solid darkorchid;
+  height: 10vh;
+  align-items: center;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    color: gray;
+    li {
+      font-size: 3vh;
+    }
+
+  }
+
+  h3 {
+    line-height: 10vh;
+    color: green;
+    margin: 2vh;
+    font-size: 3vh;
+  }
+
+  button {
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    margin: 2vh;
+    font-size: 2vh;
   }
 }
 
 section {
   display: flex;
+  width: 100%;
+  align-items: center;
   justify-content: center;
-  border: 2px solid black;
-  width: 80vh;
-  flex-direction: row;
+  border: 2px solid darkorchid;
+  
+  .h1__p {
+    width: 50%; 
+    }
+
+  .img {
+    width: 50%;
+  }
 }
 
-  .column-box {
+  .h1__p {
+    margin: 1vh;
+    
+    h1 {
+      font-size: 7vh;
+      margin: 2vh;
+  }
+  p {
+    font-size: 3vh;
+    margin: 2vh;
+    color: gray;
+  }
+  button {
+    padding: 2vh;
+    border-radius: 25px;
+    color: hotpink;
+    border: 2px solid grey;
+    background-color: white;
+  }
+  }
+
+  footer {
     display: flex;
+    border: 2px solid darkorchid;
+    height: 8vh;
+    align-items: center;
     justify-content: center;
-    border: 2px solid black;
-    width: 20vh;
-    height: 60vh;
-    flex-direction: column;
-    align-content: center;
-  } 
 
-  .mini-box {
-    border: 2px solid black;
-    width: 10vh;
-    height: 10vh;
+    .p__img {
+      display: flex;
+      width: 50%;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    p {
+      color: gray;
+      font-size: 3vh;
+      line-height: 8vh;
+    }
+
+    img {
+      width: 3vh;
+      height: 3vh;
+      line-height: 8vh;
+    }
   }
 
-  .one {
-    justify-content: space-around;
-  }
-
-  .two {
-    justify-content: space-between;
-  }
-
-  .three {
-    justify-content: space-evenly;
-  }
-
-  .four {
-    justify-content: space-evenly;
-  }
-
-  .red {
-    background-color: red;
-  }
-
-  .orange {
-    background-color: orange;
-  }
   
-  .yellow {
-    background-color: yellow;
-  }
-   
-  .green {
-    background-color: green;
-  }
+  
+
+
+
+
+
 
